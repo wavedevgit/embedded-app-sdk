@@ -11,6 +11,7 @@ import PriceUtils from './utils/PriceUtils';
 import {DiscordSDKMock} from './mock';
 import {ISDKError} from './error';
 import {patchUrlMappings, attemptRemap} from './utils/patchUrlMappings';
+import {patchExternalLinks} from './utils/patchExternalLinks';
 export type {EventPayloadData} from './schema/events';
 
 const {Commands} = Common;
@@ -29,6 +30,7 @@ export {
   RPCErrorCodes,
   Responses,
   patchUrlMappings,
+  patchExternalLinks,
   attemptRemap,
 };
 export type {
